@@ -28,7 +28,7 @@ TableEval is the first cross-language tabular question-answering benchmark suppo
 
 
 <p align="center">
-  <img src="assets/data_statistics.png" width="500">
+  <img src="assets/data_statistics.png" width="600">
 </p>
 
 
@@ -41,7 +41,7 @@ We also introduce **SEAT**(**S**tructured **E**valuation for **A**nswers in **T*
 
 
 <p align="center">
-  <img src="assets/SEAT.png" width="700">
+  <img src="assets/SEAT.png" width="800">
 </p>
 
 
