@@ -4,13 +4,11 @@
 
 
 <p align="center">
- <font size=5>🐙</font> 
-  <a target="_self" href="https://github.com/wenge-research/TableEval">
-    <img style="height:12pt" src="https://img.shields.io/badge/GitHub%20Repo-181717?style=flat&logo=github&logoColor=white">
-  </a>
+<font size=5>🤗</font> 
+<a target="_self" href="https://huggingface.co/datasets/wenge-research/TableEval">
+<img style="height:12pt" src="https://img.shields.io/badge/-🤗%20Dataset-green?style=flat"></a>
 <font size=5>•</font> 
 <font size=5>📄</font>
-
 <a target="_self" href="https://arxiv.org/abs/2506.03949">
   <img style="height:12pt" src="https://img.shields.io/badge/-Paper-red?style=flat&logo=arxiv">
 </a>
