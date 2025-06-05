@@ -398,20 +398,20 @@ TableEval-main/
 │   ├── prompts.yaml         # LLM prompt templates
 │   └── logging.yaml         # Logging format and handlers
 ├── data/                    # Dataset storage
-│   ├── tables/               # Tables in excel format
-│   ├── TableEval-meta.jsonl  # Table metadata (context, source, size, etc.)
-│   └── TableEval-test.jsonl  # Evaluation dataset with ground truths
-├── outputs/                  # Output directory
-│   ├── evaluation/           # Evaluation results
-│   ├── logs/                 # Log files
-│   ├── prediction/           # Model prediction outputs
-│   └── scores/               # Final evaluation scores
+│   ├── tables/              # Tables in excel format
+│   ├── TableEval-meta.jsonl # Table metadata (context, source, size, etc.)
+│   └── TableEval-test.jsonl # Evaluation dataset with ground truths
+├── outputs/                 # Output directory
+│   ├── evaluation/          # Evaluation results
+│   ├── logs/                # Log files
+│   ├── prediction/          # Model prediction outputs
+│   └── scores/              # Final evaluation scores
 ├── openai_client.py         # OpenAI API client wrapper
 ├── README.md                
-├── requirements.txt        # Python dependencies
-├── run_evaluation.py       # Step 3: LlM Evaluation &  Calculate metrics
-├── run_prediction.py       # Step 2: Generate model predictions
-└── utils.py                # Helper functions                     
+├── requirements.txt         # Python dependencies
+├── run_evaluation.py        # Step 3: LlM Evaluation &  Calculate metrics
+├── run_prediction.py        # Step 2: Generate model predictions
+└── utils.py                 # Helper functions                     
 ```
 
 ## 📚 Citation
