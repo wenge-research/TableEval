@@ -4,9 +4,10 @@
 
 
 <p align="center">
-<font size=5>🤗</font> 
-<a target="_self" href="https://huggingface.co/datasets/wenge-research/TableEval">
-<img style="height:12pt" src="https://img.shields.io/badge/-🤗%20Dataset-green?style=flat"></a>
+ <font size=5>🐙</font> 
+  <a target="_self" href="https://github.com/wenge-research/TableEval">
+    <img style="height:12pt" src="https://img.shields.io/badge/GitHub%20Repo-181717?style=flat&logo=github&logoColor=white">
+  </a>
 <font size=5>•</font> 
 <font size=5>📄</font>
 
@@ -25,7 +26,11 @@ TableEval is the first cross-language tabular question-answering benchmark suppo
   - **617 carefully inspected [Excel spreadsheets](data/tables)** with diverse structures including hierarchical headers, nested cells, and merged layouts.
   - **2,325 QA pairs** across **6 major tasks & 16 fine-grained sub-tasks**, assessesing various capabilities(e.g., information retrieval, reasoning, data analysis, multi-turn conversations).
 
-<div style="text-align: center;"><img src="assets/data_statistics.png" width="400"></div>
+
+<p align="center">
+  <img src="assets/data_statistics.png" width="500">
+</p>
+
 
 
 We also introduce **SEAT**(**S**tructured **E**valuation for **A**nswers in **T**ableQA), a novel evaluation framework that 
@@ -33,9 +38,11 @@ We also introduce **SEAT**(**S**tructured **E**valuation for **A**nswers in **T*
 - Provides fine-grained evaluation at the sub-question level.
 - Leverages LLMs to extract final answers from model responses, comparing them with reference answers one by one and clearly **visualizing correctness**.
 - Uses **F1-score** as the evaluation metric and achieves high consistency with human judgments.
-<div style="text-align: center;"><img src="assets/SEAT.png" width="600"></div>
 
-<!-- ![Overview of TableEval](assets/main.png) -->
+
+<p align="center">
+  <img src="assets/SEAT.png" width="700">
+</p>
 
 
 ## 🔥 Latest News
@@ -278,7 +285,7 @@ This section outlines how to configure API keys, generate model responses, and r
 
 **Step 1. Configure API keys**
 
-Currently, We only support **OpenAI-compatible API servers**. Please create or update the [`config/api_config.yaml`](config/api_config.yaml) file with your API settings. Ensure your API keys are kept secure and not exposed in public repositories. Below is an example configuration:
+Currently, We support **OpenAI-compatible API servers**. Please create or update the [`config/api_config.yaml`](config/api_config.yaml) file with your API settings. Ensure your API keys are kept secure and not exposed in public repositories. Below is an example configuration:
 
 ```shell
 gpt-4o-2024-11-20:
