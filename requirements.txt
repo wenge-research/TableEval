@@ -1,0 +1,6 @@
+json_repair==0.35.0
+numpy==2.2.3
+openai==1.63.0
+PyYAML==6.0.2
+Requests==2.32.3
+tqdm==4.66.2

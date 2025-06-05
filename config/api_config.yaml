@@ -1,0 +1,21 @@
+gpt-4o-2024-11-20:
+  model_name: gpt-4o-2024-11-20
+  api_key: YOUR_OPENAI_API_KEY
+  base_url: YOUR_OPENAI_API_URL
+  temperature: 0.0
+  max_tokens: 8192
+  top_p: 1.0
+  seed: 33
+  timeout: 300   
+  max_retries: 3 
+
+YOUR_CUSTOM_API_MODEL:
+  model_name: YOUR_CUSTOM_API_MODEL_NAME  
+  api_key: YOUR_CUSTOM_API_KEY
+  base_url: YOUR_CUSTOM_API_URL
+  temperature: 0.6
+  max_tokens: 8192
+  top_p: 0.95
+  seed: 33
+  timeout: 600   
+  max_retries: 3 
